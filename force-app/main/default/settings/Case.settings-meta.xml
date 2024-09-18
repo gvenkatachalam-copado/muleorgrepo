@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>ganeshkumar12450@gmail.com.mulecloudbox</defaultCaseOwner>
+    <defaultCaseOwner>gvenkatachalam@copado.com.ironman</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>ganeshkumar12450@gmail.com.mulecloudbox</defaultCaseUser>
+    <defaultCaseUser>gvenkatachalam@copado.com.ironman</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
