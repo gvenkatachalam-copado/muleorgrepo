@@ -5,7 +5,7 @@
         <categories>OS_UtilityLabel</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CountryCustomLabel</shortDescription>
+        <shortDescription>CountryCustomLabel_V1</shortDescription>
         <value>Country Code</value>
     </labels>
     <labels>
@@ -13,7 +13,7 @@
         <categories>OSI Test</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>Test Labels</shortDescription>
+        <shortDescription>Test Labels_V1</shortDescription>
         <value>Test Code</value>
     </labels>
 </CustomLabels>
