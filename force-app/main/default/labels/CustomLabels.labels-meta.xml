@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>CountryCustomLabel_Integrate</fullName>
+        <fullName>CountryCustomLabel</fullName>
         <categories>OS_UtilityLabel</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CountryCustomLabel</shortDescription>
+        <shortDescription>CountryCustomLabel_Integrate</shortDescription>
         <value>Country Code</value>
     </labels>
     <labels>
@@ -25,11 +25,11 @@
         <value>GOAT</value>
     </labels>
     <labels>
-        <fullName>Test_Labels_Integrate</fullName>
+        <fullName>Test_Labels</fullName>
         <categories>OSI Test</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>Test Labels</shortDescription>
+        <shortDescription>Test Labels_Integrate</shortDescription>
         <value>Test Code</value>
     </labels>
 </CustomLabels>
