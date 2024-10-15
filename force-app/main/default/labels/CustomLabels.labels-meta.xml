@@ -9,6 +9,22 @@
         <value>Country Code</value>
     </labels>
     <labels>
+        <fullName>Required_Test_Labels</fullName>
+        <categories>OSI TEst</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required Test Labels</shortDescription>
+        <value>required label</value>
+    </labels>
+    <labels>
+        <fullName>Sample_test_labels</fullName>
+        <categories>OG test</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sample test labels</shortDescription>
+        <value>GOAT</value>
+    </labels>
+    <labels>
         <fullName>Test_Labels</fullName>
         <categories>OSI Test</categories>
         <language>en_US</language>
