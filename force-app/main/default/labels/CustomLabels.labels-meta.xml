@@ -5,15 +5,39 @@
         <categories>OS_UtilityLabel</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CountryCustomLabel</shortDescription>
+        <shortDescription>CountryCustomLabel_V2</shortDescription>
         <value>Country Code</value>
+    </labels>
+    <labels>
+        <fullName>Europe_Custom_Labels</fullName>
+        <categories>OSI EU</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Europe Custom Labels</shortDescription>
+        <value>European Union</value>
+    </labels>
+    <labels>
+        <fullName>India_custom_labels</fullName>
+        <categories>OSI India</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>India custom labels</shortDescription>
+        <value>States</value>
     </labels>
     <labels>
         <fullName>Test_Labels</fullName>
         <categories>OSI Test</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>Test Labels</shortDescription>
+        <shortDescription>Test Labels_V2</shortDescription>
         <value>Test Code</value>
+    </labels>
+    <labels>
+        <fullName>US_Custom_labels</fullName>
+        <categories>OSI US</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>US Custom labels</shortDescription>
+        <value>United States</value>
     </labels>
 </CustomLabels>
