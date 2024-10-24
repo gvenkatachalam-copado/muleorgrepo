@@ -1,0 +1,227 @@
+{
+  "appPageId" : "ce96db4a-0173-4d4f-8a8f-083721f82886",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b081b372-b9a1-4285-ba5a-fd956d4570dd",
+  "label" : "Enablement Program Lesson",
+  "regions" : [ {
+    "id" : "0f8e7063-ae49-4128-a2a1-0b9ed427324e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c5e55c1a-b5e3-4b28-b8af-46d190338c77",
+          "columns" : [ {
+            "UUID" : "86ec32ef-30da-4611-a2a6-28916df4c286",
+            "columnKey" : "col1",
+            "columnName" : "column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "sfdc:identifier" : "runtime_ses_ext_contentDetailHeader"
+              },
+              "fqn" : "runtime_ses_ext:contentDetailHeader"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c5e55c1a-b5e3-4b28-b8af-46d190338c77",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "showDueDate" : true,
+            "titleHeadingLevel" : "h1"
+          },
+          "componentName" : "runtime_ses_ext:contentDetailHeader",
+          "id" : "834a47eb-9458-4d71-a9ae-c569c9538b4e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "86ec32ef-30da-4611-a2a6-28916df4c286",
+        "regionLabel" : "column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c979eb59-78e5-4806-aed6-a3b12d132aad",
+          "columns" : [ {
+            "UUID" : "e91fa1bb-43cf-4a7e-8719-255e954ba850",
+            "columnKey" : "col1",
+            "columnName" : "column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ {
+              "attributes" : {
+                "richTextValue" : "<hr class=\"slds-m-top_none\"/>",
+                "sfdc:identifier" : "forceCommunity_htmlBlock"
+              },
+              "fqn" : "forceCommunity:htmlBlock"
+            }, {
+              "attributes" : {
+                "sfdc:identifier" : "runtime_ses_ext_textLesson"
+              },
+              "fqn" : "runtime_ses_ext:textLesson"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<hr/>",
+                "sfdc:identifier" : "forceCommunity_htmlBlock"
+              },
+              "fqn" : "forceCommunity:htmlBlock"
+            } ]
+          }, {
+            "UUID" : "dcef1325-b9ef-4ce0-a45c-4e17002b4d84",
+            "columnKey" : "col2",
+            "columnName" : "column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ {
+              "attributes" : {
+                "displayAsCard" : "true",
+                "displayMode" : "compact",
+                "sfdc:identifier" : "runtime_ses_ext_programDetailHeader",
+                "showDescription" : "false"
+              },
+              "fqn" : "runtime_ses_ext:programDetailHeader"
+            }, {
+              "attributes" : {
+                "displayAsCard" : "true",
+                "sfdc:identifier" : "runtime_ses_ext_programOutcomeCard",
+                "showDescription" : "false",
+                "showIcon" : "false",
+                "title" : ""
+              },
+              "fqn" : "runtime_ses_ext:programOutcomeCard"
+            }, {
+              "attributes" : {
+                "sfdc:identifier" : "runtime_ses_ext_programTaskListCard"
+              },
+              "fqn" : "runtime_ses_ext:programTaskListCard"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c979eb59-78e5-4806-aed6-a3b12d132aad",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<hr class=\"slds-m-top_none\"/>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "a6d5c9a7-0d09-4894-8525-59ba35cc4982",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "runtime_ses_ext:textLesson",
+          "id" : "fedaaeab-b776-4499-a5eb-2868a4efe76c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<hr/>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "bddc0fde-656b-48b1-af5e-b9a576bf450f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e91fa1bb-43cf-4a7e-8719-255e954ba850",
+        "regionLabel" : "column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "displayAsCard" : true,
+            "displayMode" : "compact",
+            "recordId" : "{!recordId}",
+            "showDescription" : false,
+            "showDueDate" : true,
+            "titleHeadingLevel" : "h1"
+          },
+          "componentName" : "runtime_ses_ext:programDetailHeader",
+          "id" : "79352b0d-e1dd-4697-80fe-95142ef972e2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "displayAsCard" : true,
+            "recordId" : "{!recordId}",
+            "showDescription" : false,
+            "showDueDate" : true,
+            "showIcon" : false,
+            "title" : "",
+            "titleHeadingLevel" : "h2",
+            "titleStyle" : "small"
+          },
+          "componentName" : "runtime_ses_ext:programOutcomeCard",
+          "id" : "9d223001-2484-4003-a789-3c293d926180",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "displayAsCard" : true,
+            "recordId" : "{!recordId}",
+            "showDescription" : true,
+            "showDueDate" : true,
+            "showExpandOrCollapseButtons" : true,
+            "showIcons" : true,
+            "showProgress" : true,
+            "title" : "Milestones and Tasks",
+            "titleHeadingLevel" : "h2",
+            "titleStyle" : "small"
+          },
+          "componentName" : "runtime_ses_ext:programTaskListCard",
+          "id" : "85628373-8a46-4afc-b9c1-c9f54358de32",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dcef1325-b9ef-4ce0-a45c-4e17002b4d84",
+        "regionLabel" : "column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c2549d1b-0dfc-4b61-a941-ac76bec4fb44",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "5357b585-b49c-48d0-98ca-541bda29094e",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "enablement-program-text-lesson"
+}
