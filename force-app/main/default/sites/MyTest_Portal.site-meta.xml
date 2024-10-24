@@ -23,7 +23,7 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>jane@trialorg.company.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>jane@trialorg.company.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>jane@trialorg.company.com.int</siteAdmin>
+    <siteGuestRecordDefaultOwner>jane@trialorg.company.com.int</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
 </CustomSite>
