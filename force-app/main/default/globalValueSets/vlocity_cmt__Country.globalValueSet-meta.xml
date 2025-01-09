@@ -625,12 +625,6 @@
         <label>Equatorial Guinea</label>
     </customValue>
     <customValue>
-        <fullName>GY</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Guyana</label>
-    </customValue>
-    <customValue>
         <fullName>GR</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -647,6 +641,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Guinea-Bissau</label>
+    </customValue>
+    <customValue>
+        <fullName>GY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Guyana</label>
     </customValue>
     <customValue>
         <fullName>HM</fullName>
@@ -895,12 +895,6 @@
         <label>Libyan Arab Jamahiriya</label>
     </customValue>
     <customValue>
-        <fullName>MD</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Moldova, Republic of</label>
-    </customValue>
-    <customValue>
         <fullName>MA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -917,6 +911,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Saint Martin (French part)</label>
+    </customValue>
+    <customValue>
+        <fullName>MD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Moldova, Republic of</label>
     </customValue>
     <customValue>
         <fullName>ME</fullName>
@@ -1165,12 +1165,6 @@
         <label>Portugal</label>
     </customValue>
     <customValue>
-        <fullName>RE</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Reunion</label>
-    </customValue>
-    <customValue>
         <fullName>RO</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -1187,6 +1181,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Qatar</label>
+    </customValue>
+    <customValue>
+        <fullName>RE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reunion</label>
     </customValue>
     <customValue>
         <fullName>RS</fullName>
