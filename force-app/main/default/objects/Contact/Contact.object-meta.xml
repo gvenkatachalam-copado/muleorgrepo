@@ -342,6 +342,8 @@
         <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
         <listViewButtons>Contact_List_View_button</listViewButtons>
         <listViewButtons>Check_list_view_button</listViewButtons>
+        <listViewButtons>Hyland_List_view_button</listViewButtons>
+        <listViewButtons>T1_Button_View</listViewButtons>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
