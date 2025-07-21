@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>No puede cambiar la dirección de correo electrónico directamente. Comuníquese con el &lt;a href=&quot;/ParticipantPortal/s/support&quot;target=&quot;_self&quot;&gt;&lt;u&gt;Soporte&lt;/u&gt;&lt;/a&gt; a la siguiente dirección.</label>
+        <name>ChangeEmailAddressLabel</name>
+    </customLabels>
+</Translations>
