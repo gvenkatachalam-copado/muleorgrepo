@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ChangeEmailAddressLabel</fullName>
+        <categories>ChangeUsername</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ChangeEmailAddressLabel</shortDescription>
+        <value>You cannot change the email address directly. Please reach out to the below email address  &lt;a href=&quot;/ParticipantPortal/s/support&quot;target=&quot;_self&quot;&gt;&lt;u&gt;Support&lt;/u&gt;&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>CountryCustomLabel</fullName>
+        <categories>OS_UtilityLabel</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CountryCustomLabel_V2</shortDescription>
+        <value>Country Code</value>
+    </labels>
+    <labels>
+        <fullName>Europe_Custom_Labels</fullName>
+        <categories>OSI EU</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Europe Custom Labels</shortDescription>
+        <value>European Union</value>
+    </labels>
+    <labels>
+        <fullName>India_custom_labels</fullName>
+        <categories>OSI India</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>India custom labels</shortDescription>
+        <value>States</value>
+    </labels>
+    <labels>
+        <fullName>Test_Labels</fullName>
+        <categories>OSI Test</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Labels_V2</shortDescription>
+        <value>Test Code</value>
+    </labels>
+    <labels>
+        <fullName>US_Custom_labels</fullName>
+        <categories>OSI US</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>US Custom labels</shortDescription>
+        <value>United States</value>
+    </labels>
+</CustomLabels>
