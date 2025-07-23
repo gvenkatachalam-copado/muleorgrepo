@@ -7,3 +7,8 @@
 #**/classes/*.cls
 #**/pages/*.page
 #**/layouts/*.layout-meta.xml
+
+#Exclude email templates from auto resolve:
+
+**/emailTemplates/*.email
+**/emailTemplates/*.email-meta.xml
