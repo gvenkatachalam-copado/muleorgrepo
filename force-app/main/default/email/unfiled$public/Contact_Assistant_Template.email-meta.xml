@@ -5,7 +5,7 @@
     <encodingKey>UTF-8</encodingKey>
     <name>Contact Assistant Template</name>
     <style>none</style>
-    <subject>Welcome My dear Assistant</subject>
+    <subject>Welcome My dear Assistant on our new project</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>
