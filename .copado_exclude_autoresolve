@@ -10,5 +10,6 @@
 
 #Exclude email templates from auto resolve:
 
-**/emailTemplates/*.email
-**/emailTemplates/*.email-meta.xml
+**/email/**/*.email
+**/email/**/*.email-meta.xml
+
