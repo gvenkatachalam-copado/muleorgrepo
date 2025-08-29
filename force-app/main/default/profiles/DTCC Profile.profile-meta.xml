@@ -3,9 +3,9 @@
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <custom>true</custom>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.CCH_rule_field__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <loginHours n1:nil="true" />
     <loginIpRanges>
