@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>DTCC Profile</fullName>
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
@@ -139,11 +138,11 @@
     </applicationVisibilities>
     <classAccesses>
         <apexClass>AccountCreationHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountCreationHelperTest</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
@@ -169,6 +168,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CCH_rule_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4674,7 +4678,6 @@
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>COPA Test</description>
         <endAddress>34.73.251.138</endAddress>
